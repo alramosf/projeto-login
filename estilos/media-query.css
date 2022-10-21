@@ -8,13 +8,14 @@
 1201px and more — Extra large screens, TV.
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) /*Configuração para tablet*/{
 
     body{
         background-image: linear-gradient(to top, #0A1320, #060606, #5E7378);
     }
     section#login{
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -38,6 +39,7 @@
 
     section#login{
         width: 768px;
+        height: 350px;
     }
     
     section#login > div#imagem {
@@ -56,5 +58,6 @@
 
     div#forms > p {
         font-size: 1.2em;
+        margin: 10px 0px;
     }
 }
